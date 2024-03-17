@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ui Creation</string>
+    <string name="profile__text">Profile</string>
+    <string name="upload_quotes_text">Upload your quotes</string>
+    <string name="username">Guru Prasad</string>
+    <string name="share_button">Share</string>
+    <string name="contact_us_button">Contact us</string>
+    <string name="about_us_button">About us</string>
+    <string name="logout_button">Logout</string>
+    <string name="afternoons_are_for_inspiration">Afternoons are for inspiration.</string>
+    <string name="random_quotes">Random quotes</string>
+    <string name="search">Search</string>
+</resources>

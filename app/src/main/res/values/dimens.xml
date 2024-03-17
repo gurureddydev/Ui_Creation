@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_horizontal">20dp</dimen>
+    <dimen name="margin_top_large">50dp</dimen>
+    <dimen name="margin_top_medium">36dp</dimen>
+    <dimen name="margin_top_small">26dp</dimen>
+    <dimen name="margin_top_profile_pic">20dp</dimen>
+    <dimen name="button_weight">1</dimen>
+</resources>

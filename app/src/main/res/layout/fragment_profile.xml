@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header Section -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/profile__text"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_top_large" />
+
+        <TextView
+            android:id="@+id/tv_upload_quotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_quotes_text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="@dimen/margin_top_medium" />
+
+    </RelativeLayout>
+
+    <!-- Profile Picture -->
+    <ImageView
+        android:id="@+id/iv_profile_pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_profile_pic"
+        android:scaleType="centerInside"
+        android:src="@drawable/profile_pic"
+        android:contentDescription="@string/profile__text" />
+
+    <!-- Username -->
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_medium" />
+
+    <!-- Buttons Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginTop="@dimen/margin_top_medium">
+
+        <!-- Share Button -->
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/share_button"
+            android:layout_weight="@dimen/button_weight" />
+
+        <!-- Contact Us Button -->
+        <Button
+            android:id="@+id/btn_contact_us"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us_button"
+            android:layout_weight="@dimen/button_weight"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- About Us Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginTop="@dimen/margin_top_small">
+
+        <Button
+            android:id="@+id/btn_about_us"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us_button"
+            android:layout_weight="@dimen/button_weight" />
+
+    </LinearLayout>
+
+    <!-- Logout Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginTop="@dimen/margin_top_large">
+
+        <Button
+            android:id="@+id/log_out"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/logout_button"
+            android:layout_weight="@dimen/button_weight" />
+
+    </LinearLayout>
+
+</LinearLayout>
